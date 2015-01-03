@@ -1,7 +1,7 @@
 # == Class: ntp::service
 class ntp::service inherits ntp {
 
-  service { 'ntp':
+  service { 'ntpd':
     ensure     => running,
     enable     => true,
     hasstatus  => true,

@@ -36,6 +36,7 @@
 # Copyright 2014 Your name here, unless otherwise noted.
 #
 class ntp {
-
-
+    include ntp::install
+    include ntp::config
+    include ntp::service
 }
